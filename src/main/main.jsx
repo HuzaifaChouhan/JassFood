@@ -1,10 +1,15 @@
 import './main.css';
-import Collection from './collection/collection';
+import CollectionBig from './collection/collectionBig';
+import CollectionSmall from './collection/collectionSmall';
 
 function Main(){
+    const Bigparagraph = `There are over 600 types of pasta, and some have over 1300 names.The three most popular kinds of pasta are penne, spaghetti, and macaroni.`
     return<>
         <main>
-            <Collection/>
+            <CollectionBig bigp={Bigparagraph} />
+            <CollectionSmall/>
+            <CollectionBig bigp={Bigparagraph} />
+            <CollectionSmall/>
         </main>
     </>
 }
