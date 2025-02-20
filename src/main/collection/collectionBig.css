@@ -11,7 +11,7 @@
     /* border: 1px solid red; */
     width: 350px;
     height: 350px;
-    margin:40px 0px 0px 50px;
+    /* margin:40px 0px 0px 50px; */
     /* animation: round 5s 0s infinite; */
 }
 .collection-big-img img{
@@ -34,4 +34,16 @@
 
 .collection-big-h2{
     color: #F9891F;
+}
+
+@media(max-width:520px){
+    .collection-big-img{
+        width: 300px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+    }
+    .collection-big-text{
+        font-size: small;
+    }
 }

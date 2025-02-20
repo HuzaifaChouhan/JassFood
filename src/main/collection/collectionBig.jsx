@@ -14,6 +14,8 @@ function CollectionBig(props){
                 </h2>
                 <p className='collection-big-p'>
                     {props.bigp}
+                    There are over 600 types of pasta, and some have over 1300 names.<br/>
+                    The three most popular kinds of pasta are penne, spaghetti, and macaroni.
                 </p>
             </div>
         </div>

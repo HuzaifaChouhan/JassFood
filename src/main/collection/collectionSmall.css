@@ -28,3 +28,13 @@
 .collection-small-img img{
     width: 100%;
 }
+
+@media(max-width:520px){
+    .collection-small-img{
+        display: flex;
+        align-items: center;
+    }
+    .collection-small-text{
+        font-size: small;
+    }
+}
