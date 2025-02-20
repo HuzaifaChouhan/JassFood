@@ -57,7 +57,10 @@
         font-size: small;
     }
     .collection-big-curve{
-        width: 450px;
+        width: 400px;
         height: 200px;
+    }
+    .collection-big-row{
+        margin-bottom: 0px;
     }
 }
