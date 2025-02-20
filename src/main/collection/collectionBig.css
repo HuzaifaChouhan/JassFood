@@ -19,6 +19,10 @@
 .collection-big-img{
     /* background-color: black; */
     /* border: 1px solid red; */
+    /* position: relative;
+    top:50px; */
+    display: flex;
+    align-items: center;
     width: 350px;
     height: 350px;
     /* margin:40px 0px 0px 50px; */
@@ -52,6 +56,9 @@
         height: 350px;
         display: flex;
         align-items: center;
+    }
+    .collection-big-img img{
+        height: 40%;
     }
     .collection-big-text{
         font-size: small;

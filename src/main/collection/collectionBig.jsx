@@ -1,12 +1,12 @@
 import './collectionBig.css';
-import pasta from '../../Images/pasta.png';
+import chicken from '../../Images/chicken.png';
 
 function CollectionBig(props){
     return<>
         <div className='collection-big-row'>
             <div className='collection-big-curve'>
                 <div className='collection-big-img'>
-                    <img src={pasta}></img>
+                    <img src={chicken}></img>
                 </div>
                 <div className='collection-big-text'>
                     <h2 className='collection-big-h2'>

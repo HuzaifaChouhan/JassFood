@@ -20,7 +20,7 @@ function Hero(){
                         <img src={food} className='hero-right-img'></img>
                     </div>
                     <div className='hero-right-h3'>
-                        <h3>F<span className='hero-right-span'>ooo</span>die</h3>
+                        <h3>Ja<span className='hero-right-span'>sss</span>Food</h3>
                     </div>
                  </div>
             </div>

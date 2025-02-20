@@ -1,5 +1,5 @@
 import './collectionSmall.css';
-import pasta from '../../Images/pasta.png';
+import chicken from '../../Images/chicken.png';
 
 function CollectionSmall(props){
     return<>
@@ -17,7 +17,7 @@ function CollectionSmall(props){
                     </p>
                 </div>
                 <div className='collection-small-img'>
-                    <img src={pasta}>
+                    <img src={chicken}>
                         {props.smallimg}
                     </img>
                 </div>

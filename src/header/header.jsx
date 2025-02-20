@@ -5,7 +5,7 @@ function Header(){
 
     return<>     
         <header>
-            <h2 className='header-h2'>F<span className='header-h2-span'>ooo</span>die</h2>
+            <h2 className='header-h2'>Ja<span className='header-h2-span'>sss</span>Food</h2>
             <Nav/>
         </header>
     </>

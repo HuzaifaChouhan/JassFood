@@ -35,6 +35,10 @@
 .collection-small-img{
     width: 250px;
     height: 250px;
+    display: flex;
+    align-items: center;
+    /* position: relative;
+    top: 40px; */
 }
 .collection-small-img img{
     width: 100%;
