@@ -1,13 +1,23 @@
 .collection-big-row{
-    /* border: 1px solid yellow; */
+    margin-top: 40px;
     width: 100%;
     height: 350px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    /* align-items: center; */
+}
+.collection-big-curve{
+    background-color: white;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-radius: 200px 0px 0px 200px;
+    display: flex;
     align-items: center;
 }
 
 .collection-big-img{
+    /* background-color: black; */
     /* border: 1px solid red; */
     width: 350px;
     height: 350px;
@@ -45,5 +55,9 @@
     }
     .collection-big-text{
         font-size: small;
+    }
+    .collection-big-curve{
+        width: 450px;
+        height: 200px;
     }
 }
