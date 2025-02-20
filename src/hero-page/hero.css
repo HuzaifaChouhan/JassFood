@@ -1,0 +1,119 @@
+.hero{
+    width: 100%;
+    height: 483px;
+    border-bottom: 1px solid black;
+    /* border-top: 1px solid black; */
+    display: flex;
+}
+/* Left side */
+
+.hero-left{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-left-h1{
+    color: #2F2F2F;
+    margin: 0px 50px;
+}
+.hero-left-span{
+    color: #F9891F;
+}
+.hero-left-p{
+    margin: 50px;
+    color: gray;
+    text-align: start;
+}
+
+/* Right side */
+
+.hero-right{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end
+}
+
+.hero-right-div{
+    display: flex;
+    background-color: #2F2F2F;
+    border-radius: 150px 0px 0px 150px;
+    width: 550px;
+    height: 300px;
+    /* border:1px solid black ; */
+}
+
+.hero-right-div-circle{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    left: 20px;
+    top:25px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.hero-right-img{
+    width: 250px;
+    height: 250px;
+    animation: round 5s 0s infinite;
+    /* border: 1px solid #F9891F; */
+    border-radius: 50%;
+}
+
+.hero-right-h3{
+    /* border: 1px solid black; */
+    color:white;
+    transform: rotate(90deg);
+}
+.hero-right-span{
+    color: #F9891F;
+}
+
+@keyframes round {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+@media(max-width:520px){
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+    .hero-left{
+        height: 100vh;
+        width: 100%;
+    }
+    .hero-right{
+        height: 100vh;
+        width: 100%;
+    }
+    .hero-right-div{
+        width: 400px;
+        height: 200px;
+    }
+    .hero-right-div-circle{
+        height: 150px;
+        width: 150px;   
+    }
+    .hero-right-img{
+        height: 150px;
+        width: 150px;
+    }
+}

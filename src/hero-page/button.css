@@ -1,0 +1,18 @@
+button{
+    border: 1px solid #F9891F;
+    color: #F9891F;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    box-shadow: -6px 5px 0px;
+    transition: all 0.5s;
+    position: relative;
+    margin: 0px 50px;
+}
+
+button:hover{
+    transform: translate(-6px,5px);
+    box-shadow: none;
+}
